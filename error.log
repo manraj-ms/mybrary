@@ -1,0 +1,23 @@
+[2024-04-29T10:05:28.128Z] 500 - C:\Users\conta\OneDrive\Desktop\Mybrary-1.8\views\authors\index.ejs:6
+    4|     <div class="form-item">
+    5|       <label>Name</label>
+ >> 6|       <input type="text" name="name" value="<%= searchOptions.name %>">
+    7|     </div>
+    8|   </div>
+    9|   <div class="form-row form-row-end">
+
+searchOptions is not defined - /authors - GET
+[2024-04-29T10:16:55.428Z] 500 - Cast to ObjectId failed for value "delete" (type string) at path "_id" for model "Author" - /authors/delete - GET
+[2024-04-29T10:17:34.718Z] 500 - Cast to ObjectId failed for value "delete" (type string) at path "_id" for model "Author" - /authors/delete - GET
+[2024-04-29T10:18:45.993Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-29T10:19:54.207Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-29T10:19:54.209Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-29T10:20:19.694Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-29T10:23:48.361Z] 500 - Cast to ObjectId failed for value ":66294d42fd6fc34f34b2950" (type string) at path "_id" for model "Author" - /authors/:66294d42fd6fc34f34b2950 - GET
+[2024-04-29T10:48:06.632Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-29T10:50:45.980Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-29T10:51:43.870Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-29T10:52:10.757Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-30T05:02:59.474Z] 500 - Cannot read properties of null (reading 'originalUrl') - /authors/66294d42fd6fc34f34b2950a?_method=DELETE - DELETE
+[2024-04-30T05:03:05.545Z] 500 - Author validation failed: name: Path `name` is required. - /authors - POST
+[2024-04-30T05:16:48.191Z] 500 - Author validation failed: name: Path `name` is required. - /authors - POST
